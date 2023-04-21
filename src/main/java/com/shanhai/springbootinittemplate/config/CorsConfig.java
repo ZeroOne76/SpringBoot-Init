@@ -13,7 +13,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @since 2023/3/24 17:08
  */
 @Configuration
-public class CorsConfig implements  WebMvcConfigurer{
+public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         // 覆盖所有请求
@@ -25,5 +25,6 @@ public class CorsConfig implements  WebMvcConfigurer{
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .exposedHeaders("*");
+
     }
 }

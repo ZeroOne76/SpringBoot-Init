@@ -5,7 +5,7 @@ package com.shanhai.springbootinittemplate.common;
  */
 public enum CodeEnum {
 
-    SUCCESS(20000,"成功"),
+    SUCCESS(20000, "成功"),
 
     PARAMS_ERROR(40000, "请求参数错误"),
     NOT_LOGIN_ERROR(40100, "未登录"),

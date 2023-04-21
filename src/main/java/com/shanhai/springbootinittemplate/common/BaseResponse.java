@@ -2,7 +2,6 @@ package com.shanhai.springbootinittemplate.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.io.Serializable;
@@ -18,7 +17,7 @@ import java.io.Serializable;
 @Data
 @ToString
 @AllArgsConstructor
-public class BaseResponse <T> implements Serializable {
+public class BaseResponse<T> implements Serializable {
     //返回状态码
     private int code;
 

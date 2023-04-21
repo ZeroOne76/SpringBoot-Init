@@ -11,7 +11,7 @@ import java.io.Serializable;
  * @version 1.0
  * @since 2023/3/24 16:58
  */
-public class PageRequest <T> implements Serializable {
+public class PageRequest<T> implements Serializable {
     /**
      * 当前页号
      */
